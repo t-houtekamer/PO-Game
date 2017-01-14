@@ -6,14 +6,20 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_cat</sprite>
+    <sprite>sprites\spr_cat_r</sprite>
     <sprite>sprites\spr_maria_ph</sprite>
     <sprite>sprites\spr_floor_grass</sprite>
     <sprite>sprites\spr_block_1</sprite>
+    <sprite>sprites\spr_power_1</sprite>
+    <sprite>sprites\spr_cat_l</sprite>
+    <sprite>sprites\spr_pontes_out_floor</sprite>
+    <sprite>sprites\spr_block_2</sprite>
+    <sprite>sprites\spr_reload</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_clouds</background>
     <background>background\background1</background>
+    <background>background\bg_pontes_out</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -21,9 +27,15 @@
     <object>objects\obj_maria_ph</object>
     <object>objects\obj_block_1</object>
     <object>objects\obj_grass_1</object>
-    <object>objects\Collider</object>
+    <object>objects\par_collider</object>
+    <object>objects\obj_power_1</object>
+    <object>objects\obj_cat_foh</object>
+    <object>objects\obj_pontes_out_floor</object>
+    <object>objects\obj_block_2</object>
+    <object>objects\obj_placeholder</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_pontes_out</room>
     <room>rooms\rm_outside_1</room>
   </rooms>
   <help>
